@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const Json2csvParser = require('json2csv').Parser;
 const fs = require('fs');
 const fields = ['name','duration','changes','seatsSecond','price','cheapTicket'];
-const opts = { fields };
+const opts = { fields, delimiter:';'};
 
 
 
